@@ -45,7 +45,7 @@
 }
 
 
-.comment-box button {
+ .btn {
     border: 0;
     padding: 10px 30px;
     background: #86b0b6;
@@ -54,6 +54,12 @@
     color:  #fff;
 }
 
-.comment-box button:hover {
+.btn:hover {
     background-color: #718a87;
+}
+
+.replay-container {
+    margin-top: 500px;
+    padding: 15px 20px;
+    border:  1px solid grey;
 }
