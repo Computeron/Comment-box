@@ -18,15 +18,16 @@ let add = () => {
     }
 
 
-if (inputName.value == "" || inputTextArea.value == "") {
-    let list = document.querySelector('.list'); 
-    let list_item = document.createElement ("l2"); 
- 
-    list.append(list_item); 
-     }
-     inputName.value = comment.value= "";
-     inputTextArea.value= comment.value = "";
+    if (inputName.value == "" || inputTextArea.value == "") {
+        let list = document.querySelector('.list'); 
+        let list_item = document.createElement ("l2"); 
+     
+        list.append(list_item); 
+         }
+         inputName.value = inputTextArea.value= "";
+       
 }
+
  
 
 
